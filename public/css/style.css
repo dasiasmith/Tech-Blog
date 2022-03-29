@@ -78,10 +78,7 @@ input {
   margin: 5px 0;
   border-radius: 5px;
   color: var(--main);
-  border: none;
-  outline: none;
   background-color: var(--grey);
-  box-shadow: 3px 3px var(--black);
   transform: translate(-1px, -1px);
 }
 
@@ -130,7 +127,6 @@ input {
   color: var(--black);
   padding: 0 10px;
   display: inline-block;
-  border-radius: var(--border-radius);
   box-shadow: 6px 5px var(--grey);
 }
 
@@ -157,12 +153,8 @@ input {
 
 .footer a {
   display: inline-block;
-  padding: 1em;
-  margin-bottom: 0.5em;
   background-color: var(--black);
   color: var(--main);
-  border-radius: var(--border-radius);
-  text-decoration: none;
 }
 
 .card {
